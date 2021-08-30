@@ -14,11 +14,11 @@ def main():
     opc = int(input("Introduce una opcion: "))
     valor = int(input("Introduce la cantidad: "))
     if valor >= 0:
-        if opc == 1:
+        if (opc == 1):
             print(pies_cm(valor))
-        elif opc == 2:
+        elif (opc == 2):
             print(pulgadas_cm(valor))
-        elif opc == 3:
+        elif (opc == 3):
             print(yardas_cm(valor))
         else:
             print("Error")
